@@ -29,6 +29,12 @@ window.WRITING_JA = [
     description: "統計数理研究所 コラム157"
   },
   {
+    date: "2021-03-05",
+    title: "マルコフ連鎖モンテカルロ法における平均回帰",
+    url: "https://www.jstage.jst.go.jp/article/jjssj/50/2/50_381/_article/-char/ja/",
+    description: "日本統計学会研究業績賞受賞者特別寄稿論文．『日本統計学会誌』50巻2号，381–402頁．"
+  },
+  {
     date: "2020-10-01",
     title: "走行速度の違いによる強風時の安全性を評価する",
     url: "https://www.rtri.or.jp/publish/rrr/2020/rrr10.html",

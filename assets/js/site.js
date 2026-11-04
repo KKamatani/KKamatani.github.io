@@ -6,7 +6,8 @@ const siteContent = {
   paperNotes: window.PAPER_NOTES || [],
   editorialRoles: window.EDITORIAL_ROLES_EN || [],
   awards: window.AWARDS_EN || [],
-  studentsJa: window.STUDENTS_JA || { current: [], doctoral: [], masters: [] },
+  archiveConferences: window.CONFERENCE_ARCHIVE_EN || [],
+  studentsJa: window.STUDENTS_JA || { current: [], doctoral: [], masters: [], outreach: [] },
   committeesJa: window.COMMITTEE_ROLES_JA || [],
   profileEn: window.PROFILE_EN || { education: [], career: [], memberships: [], funding: [] },
   profileJa: window.PROFILE_JA || { education: [], career: [], memberships: [], funding: [] }
@@ -325,6 +326,9 @@ document.querySelectorAll("[data-content-list]").forEach((list) => {
     renderAcademicRecords(list, siteContent.editorialRoles);
   }
   if (contentType === "awards") renderAcademicRecords(list, siteContent.awards);
+  if (contentType === "archive-conferences") {
+    renderAcademicRecords(list, siteContent.archiveConferences);
+  }
   if (contentType === "students-ja-current") {
     renderJapaneseStudents(list, siteContent.studentsJa.current);
   }
@@ -333,6 +337,9 @@ document.querySelectorAll("[data-content-list]").forEach((list) => {
   }
   if (contentType === "students-ja-masters") {
     renderJapaneseStudents(list, siteContent.studentsJa.masters);
+  }
+  if (contentType === "outreach-ja") {
+    renderAcademicRecords(list, siteContent.studentsJa.outreach);
   }
   if (contentType === "committees-ja") {
     renderJapaneseCommitteeRoles(list, siteContent.committeesJa);

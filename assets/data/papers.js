@@ -101,6 +101,17 @@ window.PAPERS = [
     ]
   },
   {
+    id: "qsmc-discussion-2020",
+    date: "2020-11-01",
+    title: "Discussion on the paper by Pollock, Fearnhead, Johansen and Roberts",
+    url: "https://academic.oup.com/jrsssb/article/82/5/1167/7056133",
+    authors: "Kengo Kamatani, Joris Bierkens, and Sebastiano Grazzi",
+    venue: "Journal of the Royal Statistical Society: Series B 82(5), 1216",
+    links: [
+      { label: "Journal", url: "https://academic.oup.com/jrsssb/article/82/5/1167/7056133" }
+    ]
+  },
+  {
     id: "random-walk-high-dim-2020",
     date: "2020-01-01",
     title: "Random walk Metropolis algorithm in high dimension with non-Gaussian target distributions",

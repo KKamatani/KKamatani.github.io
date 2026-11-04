@@ -7,6 +7,8 @@ This repository contains the source for the academic website of Kengo Kamatani, 
 
 My research focuses on Bayesian computation, Markov chain Monte Carlo, particle methods, and statistical inference for stochastic processes. The website presents selected publications, research projects, editorial activities, talks, writing, and teaching information.
 
+An [academic archive](https://kkamatani.github.io/archive.html) preserves earlier conference and session organisation records from the previous website.
+
 Information for readers of the Japanese textbook *モンテカルロ統計計算*, including solutions to exercises and corrections, is available on the [book support page](https://kkamatani.github.io/MonteCarloText/).
 
 The website is a lightweight static site built with HTML, CSS, and JavaScript and hosted with GitHub Pages.

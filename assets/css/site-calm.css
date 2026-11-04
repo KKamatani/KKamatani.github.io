@@ -361,6 +361,28 @@ h3 {
 .section-kicker,
 .card-label { color: var(--accent); }
 
+.archive-intro {
+  padding: clamp(8.5rem, 15vw, 11rem) 0 clamp(4.5rem, 8vw, 6.5rem);
+  color: var(--white);
+  background: var(--hero);
+}
+
+.archive-intro .section-kicker { color: rgba(255, 255, 255, 0.64); }
+
+.archive-intro h1 {
+  max-width: 17ch;
+  margin: 0 0 1.5rem;
+  font-size: clamp(2.5rem, 5.5vw, 4.4rem);
+  font-weight: 430;
+  line-height: 1.08;
+}
+
+.archive-intro > .shell > p:last-child {
+  max-width: 42rem;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.78);
+}
+
 .split-heading {
   display: grid;
   grid-template-columns: minmax(0, 0.82fr) minmax(20rem, 1fr);
@@ -713,6 +735,26 @@ h3 {
 
 .plain-list li:last-child { border-bottom: 1px solid #c4cbc7; }
 
+.teaching-archive {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  border-top: 1px solid #c4cbc7;
+}
+
+.teaching-archive summary {
+  padding: 0.9rem 0;
+  color: var(--brand);
+  font-size: 0.86rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.teaching-archive summary::marker { color: var(--accent); }
+
+.teaching-archive .record-list {
+  max-width: 44rem;
+  padding-bottom: 1rem;
+}
+
 .academic-records,
 .student-records {
   margin-top: clamp(3.5rem, 8vw, 7rem);
@@ -815,6 +857,29 @@ h3 {
   border-bottom: 1px solid #aeb6b3;
   border-radius: 0;
 }
+
+.archive-records li { grid-template-columns: 6.5rem minmax(0, 1fr); }
+
+.archive-note {
+  max-width: 45rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.archive-note-year {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.archive-note p:not(.archive-note-year) {
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.archive-note a { color: var(--brand); }
 
 .student-records {
   display: grid;

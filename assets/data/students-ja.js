@@ -1,5 +1,5 @@
 // 日本語ページの指導学生一覧です．
-// current / doctoral / masters の該当する配列に項目を追加してください．
+// current / doctoral / masters / outreach の該当する配列に項目を追加してください．
 // 表示順はこのファイルの並び順です（新しいものを上に置いてください）．
 window.STUDENTS_JA = {
   current: [
@@ -69,6 +69,13 @@ window.STUDENTS_JA = {
       romanized: "Masahiro Ogawa",
       thesis: "Hawkes model の数値的解析",
       detail: "保険会社に勤務．"
+    }
+  ],
+  outreach: [
+    {
+      period: "2010・2016年",
+      title: "群馬県の高校生向け「初等確率・統計」",
+      detail: "東京大学玉原国際セミナーハウス"
     }
   ]
 };
