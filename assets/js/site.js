@@ -210,6 +210,36 @@ const renderAcademicRecords = (list, records = []) => {
   });
 };
 
+const renderArchiveRecords = (list, records = []) => {
+  records.forEach((item) => {
+    const listItem = document.createElement("li");
+    const period = document.createElement("p");
+    const article = document.createElement("article");
+    const title = document.createElement("h3");
+
+    period.className = "record-period";
+    period.textContent = item.period;
+    title.textContent = item.title;
+    article.append(title);
+
+    (item.paragraphs || []).forEach((text) => {
+      const paragraph = document.createElement("p");
+      paragraph.textContent = text;
+      article.append(paragraph);
+    });
+
+    if (item.links?.length) {
+      const links = document.createElement("div");
+      links.className = "archive-entry-links";
+      item.links.forEach((link) => links.append(createContentLink(link)));
+      article.append(links);
+    }
+
+    listItem.append(period, article);
+    list.append(listItem);
+  });
+};
+
 const renderMemberships = (list, memberships = []) => {
   memberships.forEach((item) => {
     const listItem = document.createElement("li");
@@ -327,7 +357,7 @@ document.querySelectorAll("[data-content-list]").forEach((list) => {
   }
   if (contentType === "awards") renderAcademicRecords(list, siteContent.awards);
   if (contentType === "archive-conferences") {
-    renderAcademicRecords(list, siteContent.archiveConferences);
+    renderArchiveRecords(list, siteContent.archiveConferences);
   }
   if (contentType === "students-ja-current") {
     renderJapaneseStudents(list, siteContent.studentsJa.current);
