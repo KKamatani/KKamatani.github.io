@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="統計数理研究所・鎌谷研吾のウェブサイト．ベイズ計算，MCMC，確率過程の研究と，教科書『モンテカルロ統計計算』の演習問題解答・正誤表を掲載しています．">
+    <meta name="theme-color" content="#26352b">
+    <title>鎌谷 研吾 · ベイズ計算</title>
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/img/IMG_5605-web.jpg" as="image">
+    <link rel="stylesheet" href="assets/css/site-calm.css?v=20261102g">
+    <script>document.documentElement.classList.add("js");</script>
+    <script defer src="assets/data/activity.js?v=20261102"></script>
+    <script defer src="assets/data/writing-ja.js?v=20261102b"></script>
+    <script defer src="assets/data/students-ja.js?v=20261102"></script>
+    <script defer src="assets/data/committees-ja.js?v=20261102d"></script>
+    <script defer src="assets/data/profile.js?v=20261102f"></script>
+    <script defer src="assets/js/site.js?v=20261102f"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へ移動</a>
+
+    <header class="site-header" data-header>
+      <div class="shell header-inner">
+        <a class="brand" href="#top" aria-label="鎌谷研吾 ホーム">
+          <span class="brand-mark" aria-hidden="true">KK</span>
+          <span>鎌谷 研吾</span>
+        </a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+          <span class="menu-label">メニュー</span>
+          <span class="menu-icon" aria-hidden="true"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="メインナビゲーション" data-menu>
+          <a href="#research">研究</a>
+          <a href="#activity">活動</a>
+          <a href="#writing">著書・記事</a>
+          <a href="#teaching">教育</a>
+          <a href="#profile">経歴</a>
+          <a href="#contact">連絡先</a>
+          <a class="language-link" href="index.html" lang="en">English</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero hero-ja" data-parallax-bg>
+        <div class="shell hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">ベイズ統計 · データと不確かさ</p>
+            <h1>鎌谷 研吾</h1>
+            <p class="hero-role">統計数理研究所 教授</p>
+            <p class="hero-summary">データに含まれる不確かさをコンピュータで評価する方法を研究しています．ベイズ統計とモンテカルロ法が主なテーマです．</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#research">研究内容</a>
+              <a class="button button-quiet" href="mailto:kamatani@ism.ac.jp">メール</a>
+            </div>
+          </div>
+          <aside class="hero-note" aria-label="所属とリンク">
+            <p class="note-label">所属</p>
+            <p class="affiliation">情報・システム研究機構<br>統計数理研究所<br>統計基盤数理研究系</p>
+            <p class="affiliation">総合研究大学院大学<br>統計科学コース</p>
+            <div class="profile-links">
+              <a href="https://orcid.org/0000-0002-1537-3446">ORCID</a>
+              <a href="https://github.com/KKamatani">GitHub</a>
+              <a href="https://www.ism.ac.jp/">統数研</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="research" class="section section-intro">
+        <div class="shell split-heading">
+          <div>
+            <p class="section-kicker">研究</p>
+            <h2>データの不確かさを測る</h2>
+          </div>
+          <div class="prose lead-prose">
+            <p>ベイズ統計では観測されたデータからの不確実性を，確率分布と呼ばれる評価基準に縮約します．私はその計算をコンピュータで効率よく行う方法を研究しています．</p>
+            <p>乱数を使って複雑な分布を調べるモンテカルロ法や，時間とともに変化する現象を表す確率過程が主なテーマです．</p>
+          </div>
+        </div>
+        <div class="shell topic-grid">
+          <article class="topic-card">
+            <span class="topic-number">01</span>
+            <h3>ベイズ計算</h3>
+            <p>データから得られる不確実性を，現実的な計算時間で評価する方法．</p>
+          </article>
+          <article class="topic-card">
+            <span class="topic-number">02</span>
+            <h3>モンテカルロ法</h3>
+            <p>乱数によるシミュレーションを重ね，直接計算しにくい量を調べる方法．</p>
+          </article>
+          <article class="topic-card">
+            <span class="topic-number">03</span>
+            <h3>確率過程</h3>
+            <p>金融・工学・自然現象など，時間とともにランダムに変化するデータの分析．</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="activity" class="section section-tint">
+        <div class="shell">
+          <div class="section-heading inline-heading">
+            <div>
+              <p class="section-kicker">最近の活動</p>
+              <h2>講演・研究集会</h2>
+            </div>
+          </div>
+          <div class="feature-grid feature-grid-two" data-content-list="ja-activity" data-visible-items="2" data-more-label="過去の活動を表示" data-less-label="最近の活動だけ表示"></div>
+          <noscript><p class="noscript-note">活動一覧の表示にはJavaScriptが必要です．</p></noscript>
+        </div>
+      </section>
+
+      <section id="writing" class="section">
+        <div class="shell two-column">
+          <div class="section-heading compact-heading">
+            <p class="section-kicker">著書・記事</p>
+            <h2>一般向けの解説</h2>
+          </div>
+          <div>
+            <article id="textbook" class="textbook-feature" aria-labelledby="textbook-title">
+              <p class="textbook-label">教科書</p>
+              <h3 id="textbook-title">モンテカルロ統計計算</h3>
+              <p class="textbook-meta">講談社サイエンティフィク · 2020年</p>
+              <p>ベイズ計算とMCMCの基礎から発展までを解説した教科書です．本書の演習問題の解答，誤植・訂正，補足資料を専用ページで随時更新しています．</p>
+              <div class="textbook-links">
+                <a class="textbook-link-primary" href="https://kkamatani.github.io/MonteCarloText/">演習問題の解答・正誤表 <span aria-hidden="true">↗</span></a>
+                <a href="https://www.kspub.co.jp/book/detail/5191835.html">出版社の書籍ページ <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <div class="writing-list" data-content-list="ja-writing" data-visible-items="5" data-more-label="過去の記事を表示" data-less-label="新しい記事だけ表示"></div>
+            <noscript><p class="noscript-note">著書・記事一覧の表示にはJavaScriptが必要です．</p></noscript>
+          </div>
+        </div>
+      </section>
+
+      <section id="teaching" class="section profile-section">
+        <div class="shell">
+          <div class="profile-visual">
+            <img src="assets/img/DSC7949-web.jpg" alt="講演中の鎌谷研吾" width="2200" height="1469" loading="lazy" decoding="async" data-parallax-image>
+            <div class="profile-visual-copy">
+              <p class="section-kicker">講義・解説</p>
+              <h2>統計を身近に伝える</h2>
+              <p>大学での教育に加え，ベイズ統計，MCMC，確率過程について，一般・実務家向けの講義や記事執筆を行っています．</p>
+            </div>
+          </div>
+          <div class="profile-secondary profile-secondary-wide">
+            <div>
+              <h3>主な講義テーマ</h3>
+              <ul class="plain-list">
+                <li>ベイズ統計学とベイズ計算</li>
+                <li>マルコフ連鎖モンテカルロ法</li>
+                <li>データ解析と確率過程</li>
+              </ul>
+            </div>
+            <div>
+              <h3>関連プロジェクト</h3>
+              <ul class="plain-list">
+                <li><a href="https://yuimaproject.com/">YUIMA Project</a></li>
+                <li><a href="https://github.com/yuimaproject/yuimaBayes">yuimaBayes</a></li>
+                <li><a href="https://yuima.movabletype.io/">JST CREST</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="student-records">
+            <div class="student-records-heading">
+              <p class="section-kicker">指導学生</p>
+              <h2>現在・過去の学生</h2>
+              <p>氏名，修了時期，修士論文題目など．</p>
+            </div>
+            <div class="student-records-grid">
+              <section aria-labelledby="current-students-heading">
+                <h3 id="current-students-heading">在籍中</h3>
+                <ol class="student-list" data-content-list="students-ja-current"></ol>
+              </section>
+              <section aria-labelledby="doctoral-students-heading">
+                <h3 id="doctoral-students-heading">博士課程修了</h3>
+                <ol class="student-list" data-content-list="students-ja-doctoral"></ol>
+              </section>
+              <section class="student-records-masters" aria-labelledby="masters-students-heading">
+                <h3 id="masters-students-heading">修士課程修了</h3>
+                <ol class="student-list" data-content-list="students-ja-masters" data-visible-items="5" data-more-label="以前の修了生を表示" data-less-label="新しい修了生だけ表示"></ol>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="profile" class="section background-section">
+        <div class="shell">
+          <div class="section-heading inline-heading">
+            <div>
+              <p class="section-kicker">経歴</p>
+              <h2>学歴・職歴</h2>
+            </div>
+          </div>
+          <div class="background-grid">
+            <div class="background-side">
+              <section aria-labelledby="education-ja-heading">
+                <h3 id="education-ja-heading">学歴</h3>
+                <ol class="record-list background-list" data-content-list="profile-ja-education"></ol>
+              </section>
+              <section aria-labelledby="memberships-ja-heading">
+                <h3 id="memberships-ja-heading">所属学会</h3>
+                <ul class="membership-list" data-content-list="profile-ja-memberships"></ul>
+              </section>
+            </div>
+            <section aria-labelledby="career-ja-heading">
+              <h3 id="career-ja-heading">職歴</h3>
+              <ol class="record-list background-list" data-content-list="profile-ja-career"></ol>
+            </section>
+          </div>
+          <noscript><p class="noscript-note">経歴の表示にはJavaScriptが必要です．</p></noscript>
+        </div>
+      </section>
+
+      <section id="roles" class="section committee-section">
+        <div class="shell two-column">
+          <div class="section-heading compact-heading">
+            <p class="section-kicker">学会活動</p>
+            <h2>現在の委員等</h2>
+            <p class="section-note">学会における任期中の担当のみを掲載しています．</p>
+          </div>
+          <div class="committee-list" data-content-list="committees-ja"></div>
+          <noscript><p class="noscript-note">委員一覧の表示にはJavaScriptが必要です．</p></noscript>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="shell contact-grid">
+          <div>
+            <p class="section-kicker">連絡先</p>
+            <h2>お問い合わせ</h2>
+          </div>
+          <div>
+            <a class="contact-email" href="mailto:kamatani@ism.ac.jp">kamatani@ism.ac.jp</a>
+            <address>〒190-8562 東京都立川市緑町10-3<br>統計数理研究所 D610B</address>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p>© 2026 鎌谷 研吾</p>
+        <div>
+          <a href="https://orcid.org/0000-0002-1537-3446">ORCID</a>
+          <a href="https://github.com/KKamatani">GitHub</a>
+          <a href="#top">ページ上部へ ↑</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
