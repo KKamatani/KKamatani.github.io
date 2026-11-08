@@ -56,7 +56,7 @@ window.ACTIVITY_EN = [
     date: "2025-09-26",
     dateLabel: "26 Sep 2025",
     text: "Released yuimaBayes, connecting the YUIMA framework with Bayesian workflows through rStan.",
-    links: [{ label: "yuimaBayes", url: "https://github.com/yuimaproject/yuimaBayes" }]
+    links: [{ label: "yuimaBayes", url: "https://github.com/KKamatani/yuimaBayes" }]
   },
   {
     date: "2025-09-25",

@@ -121,7 +121,7 @@ window.PROFILE_JA = {
     },
     {
       period: "2009年4月–2011年10月",
-      title: "特任研究員",
+      title: "特任助教",
       detail: "東京大学大学院数理科学研究科（BNP Paribas）"
     },
     {
