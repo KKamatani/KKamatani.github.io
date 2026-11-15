@@ -29,12 +29,13 @@ window.PAPERS = [
   },
   {
     id: "automated-pdmp-2024",
-    date: "2024-08-07",
+    date: "2027",
     title: "Automated techniques for efficient sampling of piecewise-deterministic Markov processes",
-    url: "https://arxiv.org/abs/2408.03682",
+    url: "https://doi.org/10.1007/s11222-026-11010-8",
     authors: "Charly Andral and Kengo Kamatani",
-    venue: "Statistics and Computing, Accepted",
+    venue: "Statistics and Computing 37, Article 4",
     links: [
+      { label: "DOI", url: "https://doi.org/10.1007/s11222-026-11010-8" },
       { label: "arXiv", url: "https://arxiv.org/abs/2408.03682" },
       { label: "Code", url: "https://github.com/charlyandral/pdmp_jax" }
     ]
